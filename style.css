@@ -1,0 +1,151 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb1YAsNejR9JDoRvK8tB09Xnl2_gAOzZA_Ecz1y2nIgPSrk0J2zGvJL0LJg72B4GQsW2Q&usqp=CAU");
+  background-repeat: repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.first-p {
+  font-size: 17px;
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: wheat;
+  padding: 30px;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+  margin: 20px auto;
+}
+
+.theme-button {
+  font-size: 16px;
+  background: black;
+  color: white;
+  padding: 10px 10px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.theme-button:hover {
+  color: black;
+  background: white;
+}
+
+.first-image {
+  height: 500px;
+  border-radius: 12px;
+  transition: all 150ms ease-in-out;
+}
+
+.first-image:hover {
+  filter: contrast(50px);
+  transform: scale(1.3);
+}
+
+.second-button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 24px;
+  background: #b5493a;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 20px auto;
+}
+
+.second-button:hover {
+  background: #2d2d2d;
+  color: white;
+  cursor: pointer;
+}
+
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 22px;
+}
+.grid img {
+  border-radius: 10px;
+  width: 134px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(1.5);
+}
+
+.dark {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  color: white;
+}
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark a {
+  color: brown;
+  text-decoration: none;
+}
+.dark a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+.dark .second-button {
+  background: #2d2d2d;
+  color: white;
+}
+
+.dark .second-button:hover {
+  background: #b5493a;
+  font-size: 18px;
+}
